@@ -1,0 +1,12 @@
+.messages {
+    background: #F6F8FA;
+    min-height: 307px;
+}
+.message-list {
+    width: 665px;
+}
+@media (max-width: 700px) {
+    .message-list {
+        width: auto;
+    }
+}

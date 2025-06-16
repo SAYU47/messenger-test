@@ -1,0 +1,26 @@
+.display-container {
+    width: 100%;
+}
+
+.display-message {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.delete-btn {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.display-text {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    hyphens: auto;
+}

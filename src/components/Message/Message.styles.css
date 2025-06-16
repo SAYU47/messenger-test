@@ -1,0 +1,31 @@
+.message {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.message-icon {
+    flex-shrink: 0;
+    width: 20px;
+}
+
+.message-text {
+    text-align: start;
+    flex: 1;
+    min-width: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.message-date {
+    flex-shrink: 0;
+    margin-left: auto;
+}
+@media (max-width: 400px) {
+    .message{
+        font-size: 0.75rem;
+    }
+}

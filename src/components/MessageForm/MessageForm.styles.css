@@ -1,0 +1,29 @@
+.send-button {
+    background: linear-gradient(90deg, #04694B 0%, #11A87B 100%);
+    min-width: 183px;
+    border-radius: 8px;
+}
+.send-icon{
+    display: none;
+}
+.message-form {
+    height: 50px;
+}
+.form-control {
+    height: 50px !important;
+    min-height: 50px !important;
+}
+.form-control-label {
+    padding: 0.7rem 0.75rem !important;
+}
+@media (max-width: 475px) {
+    .send-icon{
+        display: block;
+    }
+    .send-text{
+        display: none;
+    }
+    .send-button{
+        min-width: auto;
+    }
+}
